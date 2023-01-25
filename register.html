@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{background-color: plum;}
+        </style>
+        <title>REGISTERATION</title>
+    </head>
+    <h1>Register Form</h1>
+
+    <form>
+        <label>First Name: <input type="text" name="first name" placeholder="firstname" required></label>
+        <br>
+        <label>Last Name: <input type="text" name="last name" placeholder="lastname" required></label>
+        <br>
+        <label>Male <input type="radio" name="gender" value="male"></label>
+        <label>Female <input type="radio" name="gender" value="female"></label>
+        <br>
+        <label>Email: <input type="email" placeholder="your mail" required></label>
+        <br>
+        <label>Password: <input type="password" name="password" placeholder="your password" pattern=".{5,10}" title="please enter password of length 5 to 10"></label>
+        <br>
+        <label for="">Birthday: </label>
+        <select id="birthday" name="month">
+            <option>Month</option>
+            <option>jan</option>
+            <option>feb</option>
+            <option>march</option>
+
+        </select>
+        <select id="birthday" name="day">
+            <option>Day</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+            
+        </select>
+        <select id="birthday" name="year">
+            <option>Year</option>
+            <option>2000</option>
+            <option>2001</option>
+            <option>2002</option>
+            <option>2003</option>
+            <option>2004</option>
+            <option>2005</option>
+            <option>2006</option>
+            <option>2007</option>
+            <option>2008</option>
+            <option>2009</option>
+            <option>2010</option>
+           
+        </select>
+        <br>
+        <label> I agree to the terms and conditions <input type="checkbox" name="check"> </label>
+        <br>
+        <input type="submit" name="submit">
+    </form>
+</html>
