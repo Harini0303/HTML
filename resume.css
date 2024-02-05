@@ -1,0 +1,46 @@
+body{
+    background-image: url("../HTML LEARN/bg.avif");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: rgb(0, 0, 0);
+    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    
+
+}
+
+.resume{
+    width: 1000px;
+    background-color: aliceblue;
+    margin: 0 auto;
+    padding: 10px 40px;
+}
+
+.name{
+    padding: 10px;
+}
+
+.contact{
+    padding: 5px;
+    line-height: 1.5;
+}
+
+.table-style{
+    border: 2px solid;
+
+}
+.table-style th,td{
+    border: 2px solid;
+    padding: 5px;
+
+}
+
+h2{
+    background-color: rgb(199, 207, 205);
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    border-bottom: solid 1px black;
+    
+}
+
