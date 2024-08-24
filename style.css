@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    /* border-top: 10px;
+    border-color: aqua;
+    border-width: 2px;
+    border-style: solid; */
+}
+
+.head{
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+ul,li{
+    display: inline;
+}
+
+li:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.menu{
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+.f1{
+    display: inline-block;
+    border-color: black;
+    border-width: 5px;
+    border-style: solid;
+    padding-bottom: 5px;
+    
+
+}
+
+h5,p,button{
+    padding: 2px;
+}
+
+button{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+form{
+    color: white;
+}
+
+.submit{
+    background-color: yellow;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
